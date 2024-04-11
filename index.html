@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[14px] sm:text-[16px]">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- ion icons link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Tailwind CSS CDN Link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Daisy Ui Links -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Rendi Kurniawan</title>
+</head>
+
+<body style="font-family: Roboto, sans-serif;" class="bg-[#D8D8CE] text-[#cccccc]">
+
+  <header class="bg-[#5D5D47]	mx-auto px-4 py-6">
+    <nav class="">
+      <ul style="font-family: 'Roboto Mono', monospace;" class="flex justify-around font-semibold">
+        <li class=""><a href="#skills" class="transition-all hover:text-[#fdfdfc]">Skills</a></li>
+        <li class=""><a href="#contact" class="transition-all hover:text-[#fdfdfc]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section
+  class="flex flex-col-reverse sm:flex-row sm:items-center lg:min-h-screen bg-[#D8D8CE] px-8 sm:px-16 py-4 max-w-screen-xl mx-auto">
+  <div class="sm:w-2/5 order-first">
+    <img src="./images/profile.jpeg" alt="hero-img" class="h-auto max-w-full rounded-2xl">
+  </div>
+
+  <div class="sm:w-3/5 order-last pl-8 sm:pl-16">
+    <p style="font-family: 'Roboto Mono', monospace;" class="text-[#737E43] font-semibold">Hi, my name is</p>
+    <h2 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-[#484D35] mt-3 lg:mt-7">Rendi Kurniawan.</h2>
+    <h2 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-[#737E43] mt-3 lg:mt-7">Undegraduate Developer.</h2>
+    <p class="mt-6 lg:mt-10 max-w-md text-[#5D5D47]">
+      I am undergraduate information systems student at Andalas University.
+      Currently I am focused on learning JavaScript Full Stack Web Development and Flutter Development. <br>
+      I am eager to build products that can be used by millions of people. <br>
+      <span style="font-family: 'Roboto Mono', monospace;" class="font-bold text-[#737E43]">Open for Work & Collaboration.</span>
+    </p>
+    <div class="mt-12">
+      <a href="#skills" style="font-family: 'Roboto Mono', monospace;" class="px-6 py-3 text-[#737E43] border-2 border-[#737E43] font-bold transition-all hover:bg-[#828b5f] rounded-md hover:text-[#ebede4]">Check out My Skills!</a>
+    </div>
+
+    <!-- social Links -->
+    <div class="mt-12">
+      <ul class="flex gap-4 text-[#484D35]">
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.linkedin.com/in/prakash-naikwadi/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#88954f]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://github.com/prakash-naikwadi" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#88954f]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://twitter.com/PrakashNaikwad6" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-twitter" class="w-[35px] h-[35px] transition-all hover:text-[#88954f]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.instagram.com/prakashnaikwadi/?hl=en" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#88954f]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="mailto: naikwadiprakash1@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#737E43]"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+  <section class="bg-[#D8D8CE] px-8 sm:px-16 py-16 max-w-screen-xl mx-auto" id="skills">
+    <div class="">
+      <div class="flex justify-center items-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#737E43] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold text-[#484D35]">Tech Stack</h2>
+        <div class="h-px flex-1 bg-[#737E43] hidden sm:block"></div>
+      </div>
+
+      <!-- skills -->
+      <div class="grid grid-cols-3  sm:grid-cols-5 gap-12 "  style="font-family: 'Roboto Mono', monospace;">
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-html-5-96.svg" alt="html icon" class="w-24 h-24">
+          <p class="font-semibold text-[#484D35]">HTML</p>
+        </div>
+
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#484D35]">CSS</p>
+        </div>
+
+        <div class="flex flex-col items-center gap-2 ">
+          <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#484D35] text-center">Tailwind CSS</p>
+        </div>
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#484D35]">JavaScript</p>
+        </div>
+
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images\flutter-svgrepo-com.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#484D35]">Flutter</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-[#D8D8CE] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="contact">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#737E43] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold text-[#484D35]">Get In Touch</h2>
+      <div class="h-px flex-1 bg-[#737E43] hidden sm:block"></div>
+    </div>
+
+    <div class="mt-12 flex justify-center text-[#484D35]">
+      <ul class="flex gap-4">
+        <li class="mr-2 flex justify-center items-center">
+          <a href="mailto: akhirendi777@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#88954f]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.linkedin.com/in/rendi-kurniawan-a72a00146/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#88954f]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://github.com/kinyak" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#88954f]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.instagram.com/akhii.rendi/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#88954f]"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
