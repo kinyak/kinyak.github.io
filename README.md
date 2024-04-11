@@ -2,7 +2,7 @@
 
 Sebuah website portfolio sederhana menggunakan html dan tailwind css.
 
-## **Live Site URL:** <a href="https://prakash-naikwadi.netlify.app/"></a>
+## **Live Site URL:** <a href="https://kinyak.github.io//">Click Here</a>
 
 <br>
 
